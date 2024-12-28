@@ -16,8 +16,6 @@ public class Main {
         System.out.print("Enter DELETE or INSERT: ");
         String command = scan.nextLine();
 
-        Test test = new Test("vasya", 55);
-
         // Create a list of sample objects to work with
         List<Object> objects = new ArrayList<>();
         objects.add(new Car("Fiat", "Doblo", 2013));
